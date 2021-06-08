@@ -33,12 +33,13 @@ mv gm_key_64 ~/.gm_key
 In order to run **LoReAn** by **Singularity exec** command, you need to download and unzip these two files:
 
 ```bash
-wget https://github.com/lfaino/LoReAn/blob/master/third_party/software/RepeatMasker.Libraries.tar.gz && tar -zxvf config.augustus.tar.gz
+wget https://github.com/lfaino/LoReAn/raw/master/third_party/software/config.augustus.tar.gz && tar -zxvf config.augustus.tar.gz
 ```
+
 ```bash
 wget https://github.com/lfaino/LoReAn/blob/master/third_party/software/RepeatMasker.Libraries.tar.gz && tar -zxvf RepeatMasker.Libraries.tar.gz
 ```    
-The firts file is the configuration folder from Augustus software (see below <PATH_TO_AUGUSTUS_CONF_FOLDER>) while the 
+The first file is the configuration folder from Augustus software (see below <PATH_TO_AUGUSTUS_CONF_FOLDER>) while the 
 second file is the Libraries folder of RepeatMasker software (see below <PATH_TO_LIBRARY_FOLDER>)
 
 Next you can download and build the **Syngularity** image using:  
